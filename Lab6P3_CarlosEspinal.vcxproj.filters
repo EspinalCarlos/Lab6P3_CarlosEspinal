@@ -21,9 +21,51 @@
     <ClCompile Include="Competidor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Velocista.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Saltador.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lanzador.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Competencia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CienMPlanos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SaltoTriple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LanzamientoDisco.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Competidor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Velocista.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Saltador.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lanzador.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Competencia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CienMPlanos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SaltoTriple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LanzamientoDisco.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

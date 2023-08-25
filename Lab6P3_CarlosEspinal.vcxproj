@@ -127,11 +127,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CienMPlanos.cpp" />
+    <ClCompile Include="Competencia.cpp" />
     <ClCompile Include="Competidor.cpp" />
     <ClCompile Include="Lab6P3_CarlosEspinal.cpp" />
+    <ClCompile Include="Lanzador.cpp" />
+    <ClCompile Include="LanzamientoDisco.cpp" />
+    <ClCompile Include="Saltador.cpp" />
+    <ClCompile Include="SaltoTriple.cpp" />
+    <ClCompile Include="Velocista.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CienMPlanos.h" />
+    <ClInclude Include="Competencia.h" />
     <ClInclude Include="Competidor.h" />
+    <ClInclude Include="Lanzador.h" />
+    <ClInclude Include="LanzamientoDisco.h" />
+    <ClInclude Include="Saltador.h" />
+    <ClInclude Include="SaltoTriple.h" />
+    <ClInclude Include="Velocista.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

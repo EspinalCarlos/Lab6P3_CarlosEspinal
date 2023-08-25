@@ -59,5 +59,6 @@ void LanzamientoDisco::competir(Competidor* pers1,Competidor* pers2) {
 			cout << "con un nuevo record mundial (" << record_mundial << ")! ";
 		}
 	}
-
+	delete lanz1;
+	delete lanz2;
 }

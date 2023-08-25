@@ -5,9 +5,8 @@
 using namespace std;
 class CienMPlanos:public Competencia{
 public:
-	CienMPlanos() :Competencia(nombre_competencia, distancia, record_mundial){}
+	CienMPlanos();
 	~CienMPlanos();
-
-
+	virtual void competir(Competidor* pers1, Competidor* pers2);
 };
 
