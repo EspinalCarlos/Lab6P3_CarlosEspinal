@@ -1,0 +1,1 @@
+#include "Competidor.h"

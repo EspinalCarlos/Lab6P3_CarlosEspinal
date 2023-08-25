@@ -18,5 +18,13 @@
     <ClCompile Include="Lab6P3_CarlosEspinal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Competidor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Competidor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

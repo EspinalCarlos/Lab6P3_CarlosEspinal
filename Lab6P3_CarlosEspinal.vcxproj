@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Competidor.cpp" />
     <ClCompile Include="Lab6P3_CarlosEspinal.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Competidor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
