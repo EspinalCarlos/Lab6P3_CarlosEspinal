@@ -4,9 +4,9 @@
 using namespace std;
 
 Lanzador::Lanzador(string name, string country, double strength) :Competidor(name, country) {
-	pais = country;
-}
+	fuerza = strength;
 
+}
 double Lanzador::getFuerza() {
 	return fuerza;
 }
