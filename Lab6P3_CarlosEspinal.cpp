@@ -151,8 +151,12 @@ int main() {
             }
         case 4:
             opcion = 4;
+            break;
         }
 
     } while (opcion != 4);
+    for (Competidor* c : competidores) {
+        delete c;
+    }
 
 }
