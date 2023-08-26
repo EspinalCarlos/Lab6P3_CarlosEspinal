@@ -3,8 +3,8 @@
 #include <string>
 using namespace std;
 
-Saltador::Saltador(string name, string country, double strength) :Competidor(nombre, pais) {
-
+Saltador::Saltador(string name, string country, double strength) :Competidor(name, country) {
+	fuerza = strength;
 }
 
 double Saltador::getFuerza() {

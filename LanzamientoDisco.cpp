@@ -41,7 +41,7 @@ void LanzamientoDisco::competir(Competidor* pers1,Competidor* pers2) {
 	double resultado1 = ((velocidad1 * velocidad1) * (sin(2 * angulo1))) / gravedad;
 	double resultado2 = ((velocidad2 * velocidad2) * (sin(2 * angulo2))) / gravedad;
 
-	cout << "---- RESULTADOS DE COMPETENCIA ----";
+	cout << "\n---- RESULTADOS DE COMPETENCIA ----\n";
 	cout << "Distancia " << lanz1->getNombre() << ": " << resultado1 << endl;
 	cout << "Distancia " << lanz2->getNombre() << ": " << resultado2 << endl;
 

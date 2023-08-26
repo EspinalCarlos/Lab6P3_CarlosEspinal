@@ -3,9 +3,7 @@
 #include "Competidor.h"
 using namespace std;
 
-Lanzador::Lanzador(string name, string country, double strength) :Competidor(nombre, pais) {
-	fuerza = strength;
-	nombre = name;
+Lanzador::Lanzador(string name, string country, double strength) :Competidor(name, country) {
 	pais = country;
 }
 

@@ -20,7 +20,7 @@ void SaltoTriple::competir(Competidor* pers1, Competidor* pers2) {
 	double resultado1 = 15 + ((salt1->getFuerza()) * 3);
 	double resultado2 = 15 + ((salt2->getFuerza()) * 3);
 
-	cout << "---- RESULTADOS DE COMPETENCIA ----";
+	cout << "\n---- RESULTADOS DE COMPETENCIA ----\n";
 	cout << "Distancia " << salt1->getNombre() << ": " << resultado1 << endl;
 	cout << "Distancia " << salt2->getNombre() << ": " << resultado2 << endl;
 

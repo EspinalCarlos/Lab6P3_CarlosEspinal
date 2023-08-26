@@ -18,7 +18,7 @@ void CienMPlanos::competir(Competidor* pers1, Competidor* pers2) {
 	double resultado1 = 400 / (vel1->getVelocidad_max());
 	double resultado2 = 400 / (vel2->getVelocidad_max());
 	
-	cout << "---- RESULTADOS DE COMPETENCIA ----\n";
+	cout << "\n---- RESULTADOS DE COMPETENCIA ----\n";
 	cout << "Tiempo " << vel1->getNombre() << ": " << resultado1 << endl;
 	cout << "Tiempo " << vel2->getNombre() << ": " << resultado2 << endl;
 
